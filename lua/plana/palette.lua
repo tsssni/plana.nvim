@@ -3,7 +3,7 @@ local palette = {
   back = '#303446',
 
   black = '#1a1730',
-  light_black = '#645e8c',
+  light_black = '#514c73',
 
   red = '#f26dab',
   light_red = '#ff8d7c',

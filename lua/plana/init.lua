@@ -70,8 +70,8 @@ local theme = lush(function(injected_functions)
     TermCursorNC   { fg = palette.light_black }, -- Cursor in an unfocused terminal
     ErrorMsg       { fg = palette.black, bg = palette.red }, -- Error messages on the command line
     VertSplit      { fg = palette.black }, -- Column separating vertically split windows
-    Folded         { fg = palette.black, bg = palette.light_red }, -- Line used for closed folds
-    FoldColumn     { fg = palette.black, bg = palette.light_red }, -- 'foldcolumn'
+    Folded         { fg = palette.light_blue }, -- Line used for closed folds
+    FoldColumn     { fg = palette.light_blue }, -- 'foldcolumn'
     SignColumn     { fg = palette.red, bg = palette.back }, -- Column where |signs| are displayed
     IncSearch      { fg = palette.black, bg = palette.light_magenta }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
     Substitute     { fg = palette.black, bg = palette.light_magenta }, -- |:substitute| replacement text highlighting
